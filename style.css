@@ -1,0 +1,16 @@
+h1{
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+.snmp-style-1{
+    color: orange;
+}
+.hafe-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.hafe-width img {
+    width: 100%;
+}
