@@ -1,3 +1,7 @@
+body{margin: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    mar
+}
 h1{
     font-size: 50px;
     font-family: 'Poppins', sans-serif;
@@ -10,7 +14,52 @@ h1{
     float: left;
     margin-left: 5%;
     padding-left: 2%;
+    font-weight: 200;
 }
 .hafe-width img {
     width: 100%;
+} 
+.top-bannar{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+    section{
+        height: 500px;
+    }
+.Link-battoon{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+    border-radius: 5px;
+    color: aliceblue;
+    padding: 10px 20px;
+    font-weight: 700;
+}
+.medel-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.Information{
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 5px;
+    height: 80%;
+}
+.Information-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#Full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180Deg,blue,cyan) ;
+    border-image-slice: 1;
+}
+#Full-stack2{
+    border-left: 7px solid;
+    border-image: linear-gradient(180Deg,rgb(255, 60, 0),rgb(43, 255, 0)) ;
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    font-size: 12px;
 }
